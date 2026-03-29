@@ -1,0 +1,351 @@
+-<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Ministry of Public Services | Somaliland</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./final assiment.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="top-header">
+  <div class="brand">
+    <img src="./Emblem_of_Somaliland.svg.webp" class="logo">
+    <div>
+      <h1>Ministry of Public Services</h1>
+      <p>Republic of Somaliland</p>
+    </div>g
+  </div>
+  <img src="./Flag_of_Somaliland.svg.webp" class="flag">
+  <!-- <div class="toggle-menu">
+        <img class="menu-img" src="./menu.png" alt="" />
+      </div> -->
+</header>
+
+<!-- NAV -->
+<nav class="navbar">
+  <div class="menu-toggle" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#departments">Departments</a>
+    <a href="#media">Media</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+
+<!-- HOME -->
+<section id="home" class="hero-modern">
+
+  <div class="hero-content">
+
+    <!-- LEFT -->
+    <div class="hero-text">
+      <span class="hero-badge"> Committed to Excellence</span>
+
+      <h1>
+        Serving the Nation<br>
+        <span>with Integrity</span>
+      </h1>
+
+      <p>
+        The Ministry of Public Services is committed to delivering efficient,
+        transparent, and citizen-focused public administration that supports
+        national development and good governance.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#services" class="btn-primary">Our Services</a>
+        <a href="#about" class="btn-secondary">Learn More</a>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="hero-stats">
+
+      <div class="stat-card">
+        <h2>34+</h2>
+        <p>Years of Service</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>50K+</h2>
+        <p>Citizens Served</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>100+</h2>
+        <p>Programs Active</p>
+      </div>
+
+      <div class="stat-card">
+        <h2>6</h2>
+        <p>Regions Covered</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="scroll-down">↓</div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="section about-section">
+
+  <div class="about-header">
+    <h2>About the Ministry</h2>
+    <p>
+      The Ministry of Public Services is a central institution responsible
+      for strengthening public administration, civil service reform and
+      institutional development across the Republic of Somaliland.
+    </p>
+  </div>
+
+  <div class="about-content">
+
+    <!-- LEFT -->
+    <div class="about-text">
+      <h3>Who We Are</h3>
+      <p>
+        The Ministry plays a critical role in building a professional,
+        transparent and accountable public service. Through policy
+        development, capacity building and digital transformation,
+        the Ministry ensures effective service delivery to citizens.
+      </p>
+
+      <h3>Our Mandate</h3>
+      <ul>
+        <li>✔ Civil service management and reform</li>
+        <li>✔ Policy formulation and institutional development</li>
+        <li>✔ Public sector training and capacity building</li>
+        <li>✔ Digital government and e-services</li>
+      </ul>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="about-cards">
+
+      <div class="about-card">
+        <h4>Vision</h4>
+        <p>
+          A professional, efficient and transparent public service that
+          serves all citizens equally.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <h4>Mission</h4>
+        <p>
+          To strengthen government institutions through innovation,
+          reform and digital transformation.
+        </p>
+      </div>
+
+      <div class="about-card">
+        <h4>Core Values</h4>
+        <p>
+          Integrity, accountability, professionalism and national service.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- DEPARTMENTS -->
+<section id="departments" class="section light">
+  <h2 class="section-title">Government Departments</h2>
+  <p class="section-desc">
+    The Ministry operates through specialized departments to ensure
+    efficient public service delivery and institutional development.
+  </p>
+
+  <div class="dept-grid">
+
+    <div class="dept-card">
+      <div class="dept-icon">👥</div>
+      <h3>Human Resources</h3>
+      <p>
+        Responsible for recruitment, training, promotion and performance
+        management of civil servants.
+      </p>
+    </div>
+
+    <div class="dept-card">
+      <div class="dept-icon">📊</div>
+      <h3>Policy & Planning</h3>
+      <p>
+        Develops national policies, strategic plans and institutional reforms
+        aligned with government priorities.
+      </p>
+    </div>
+
+    <div class="dept-card">
+      <div class="dept-icon">💻</div>
+      <h3>ICT & E-Government</h3>
+      <p>
+        Leads digital transformation, automation and delivery of online
+        public services.
+      </p>
+    </div>
+
+    <div class="dept-card">
+      <div class="dept-icon">🎓</div>
+      <h3>Training & Capacity Building</h3>
+      <p>
+        Enhances skills and professionalism of public sector employees
+        nationwide.
+      </p>
+    </div>
+
+    <div class="dept-card">
+      <div class="dept-icon">⚖️</div>
+      <h3>Legal Affairs</h3>
+      <p>
+        Provides legal guidance, compliance oversight and regulatory support
+        to the Ministry.
+      </p>
+    </div>
+
+    <div class="dept-card">
+      <div class="dept-icon">📈</div>
+      <h3>Monitoring & Evaluation</h3>
+      <p>
+        Tracks performance, evaluates programs and ensures accountability
+        across departments.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- MEDIA -->
+<section id="media" class="media-section">
+
+  <!-- HEADER -->
+  <div class="media-header">
+    <h2>News & Media</h2>
+    <p>
+      Official videos and photo gallery showcasing government activities,
+      national events and institutional development of the Republic of Somaliland.
+    </p>
+    <span class="media-line"></span>
+  </div>
+
+  <!-- VIDEOS -->
+  <div class="media-block">
+    <h3>▶ Official Videos</h3>
+
+    <div class="video-grid">
+
+      <div class="video-card">
+        <video poster="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/House_of_Representatives_of_the_Republic_of_Somaliland.jpg/640px-House_of_Representatives_of_the_Republic_of_Somaliland.jpg" controls>
+          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+        <span>Public Service Reform Program</span>
+      </div>
+
+      <div class="video-card">
+        <video poster="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Supreme_Court_of_Somaliland_Building.jpg/640px-Supreme_Court_of_Somaliland_Building.jpg" controls>
+          <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+        </video>
+        <span>Digital Government Initiative</span>
+      </div>
+
+      <div class="video-card">
+        <video poster="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Somaliland_%28orthographic_projection%29.svg/640px-Somaliland_%28orthographic_projection%29.svg.png" controls>
+          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+        <span>National Development Overview</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- GALLERY -->
+  <div class="media-block">
+    <h3>🖼 Photo Gallery</h3>
+
+    <div class="gallery-grid">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sheekh_Isaaq.jpg/640px-Sheekh_Isaaq.jpg">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/House_of_Representatives_of_the_Republic_of_Somaliland.jpg/640px-House_of_Representatives_of_the_Republic_of_Somaliland.jpg">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Supreme_Court_of_Somaliland_Building.jpg/640px-Supreme_Court_of_Somaliland_Building.jpg">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Commemoration_of_the_27th_Anniversary_of_the_Establishment_of_the_Somaliland_National_Army.jpg/640px-Commemoration_of_the_27th_Anniversary_of_the_Establishment_of_the_Somaliland_National_Army.jpg">
+    </div>
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="section light">
+  <h2>Contact Us</h2>
+ 
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <footer class="gov-footer">
+  <div class="footer-container">
+
+    <!-- BRAND -->
+    <div class="footer-box">
+      <img src="./Emblem_of_Somaliland.svg.webp" class="footer-logo">
+      <h3>Ministry of Public Services</h3>
+      <p>
+        Republic of Somaliland<br>
+        Serving the Nation with Integrity
+      </p>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="footer-box">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#departments">Departments</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="footer-box">
+      <h4>Contact Us</h4>
+      <p>📍 Hargeisa, Somaliland</p>
+      <p>📞 +000 000 000</p>
+      <p>✉ info@somaliland.gov</p>
+    </div>
+
+    <!-- FLAG -->
+    <div class="footer-box">
+      <img src="./Flag_of_Somaliland.svg.webp" class="footer-flag">
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Ministry of Public Services – Republic of Somaliland  
+    <br>
+    <span>Official Government Website</span>
+  </div>
+</footer>
+
+</footer>
+
+<script src="./final assiment.js"></script>
+</body>
+</html>
